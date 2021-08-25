@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #014bcb;
+  display: grid;
+  grid-template-columns: 10% auto;
+  height: 100vh;
+  color: white;
+  font-family: "Nunito";
+  grid-gap: 0.5em;
+}
+sidebar {
+  background: #1d3154;
+}
+.content {
+  background: white;
+  color: black;
+  padding: 1.2em;
+  width: 50%;
+  margin-left: 1em;
+  margin-right: 2em;
+  border-radius: 0.8em;
+  line-height: 150%;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  color: #144cad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+}
+span {
+  float: right;
+}
+
+/*  
+    Your Fixes Below
+    
+    Please keep the same background color
+    and the same sidebar background color.
+    
+*/
+
+body {
+  grid-gap: auto; /* Improve the white space */
+}
+
+.content {
+  background: auto; /* Improve the color/contrast */
+  padding: auto; /* Improve the white space */
+}
+
+h1 {
+  margin-left: 16px; /* Improve the alignment */
+  /* Improve the visual hierarchy */
+}
